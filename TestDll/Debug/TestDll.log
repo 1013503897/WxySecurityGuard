@@ -1,0 +1,6 @@
+﻿  CBypassUAC.cpp
+  dllmain.cpp
+  TestDll.cpp
+  正在生成代码...
+    正在创建库 D:\source\SecurityGuard\Debug\TestDll.lib 和对象 D:\source\SecurityGuard\Debug\TestDll.exp
+  TestDll.vcxproj -> D:\source\SecurityGuard\Debug\TestDll.dll

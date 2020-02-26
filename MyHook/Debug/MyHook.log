@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  MyHook.cpp
+  正在生成代码...
+    正在创建库 D:\source\SecurityGuard\Debug\MyHookDll.lib 和对象 D:\source\SecurityGuard\Debug\MyHookDll.exp
+  MyHook.vcxproj -> D:\source\SecurityGuard\Debug\MyHookDll.dll

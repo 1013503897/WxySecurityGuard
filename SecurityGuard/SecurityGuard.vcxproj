@@ -1,0 +1,317 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+>>>>>>> v1.0
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F1797F85-7EE8-46A8-B6B7-D9830797A2EC}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>SecurityGuard</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SecurityGuard</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>openssl\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>36000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="CDlgAPITrace.h" />
+    <ClInclude Include="CDlgDisasm.h" />
+    <ClInclude Include="CDlgDriver.h" />
+    <ClInclude Include="CDlgDriverLoad.h" />
+    <ClInclude Include="CDlgFileBind.h" />
+>>>>>>> v1.0
+    <ClInclude Include="CDlgHackTools.h" />
+    <ClInclude Include="CDlgHookDetect.h" />
+    <ClInclude Include="CDlgInject.h" />
+    <ClInclude Include="CDlgMemory.h" />
+    <ClInclude Include="CDlgMiniProcess.h" />
+<<<<<<< HEAD
+=======
+    <ClInclude Include="CDlgSeparate.h" />
+>>>>>>> v1.0
+    <ClInclude Include="CDlgUninstall.h" />
+    <ClInclude Include="CDlgUploadSample.h" />
+    <ClInclude Include="CDisasmDlg.h" />
+    <ClInclude Include="CDlgFile.h" />
+    <ClInclude Include="CDlgFileCleaner.h" />
+    <ClInclude Include="CDlgFileLeft.h" />
+    <ClInclude Include="CDlgFileRight.h" />
+    <ClInclude Include="CDlgHandle.h" />
+    <ClInclude Include="CDlgHeap.h" />
+    <ClInclude Include="CDlgModule.h" />
+    <ClInclude Include="CDlgMsConfig.h" />
+    <ClInclude Include="CDlgProcess.h" />
+    <ClInclude Include="CDlgScanVirus.h" />
+    <ClInclude Include="CDlgServer.h" />
+    <ClInclude Include="CDlgThread.h" />
+    <ClInclude Include="CDlgWindow.h" />
+    <ClInclude Include="CFormViewProcUp.h" />
+    <ClInclude Include="CFormViewProcDown.h" />
+    <ClInclude Include="CGeneralTabCtrl.h" />
+    <ClInclude Include="CHexEditorDlg.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="HexEdit.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="CPEInfoDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="CResourceInfo.h" />
+    <ClInclude Include="CResourceInfoDlg.h" />
+    <ClInclude Include="CTableInfoDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="CSecurityGuard.h" />
+    <ClInclude Include="CDlgSecurityGuard.h" />
+  </ItemGroup>
+  <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="CDlgAPITrace.cpp" />
+    <ClCompile Include="CDlgDisasm.cpp" />
+    <ClCompile Include="CDlgDriver.cpp" />
+    <ClCompile Include="CDlgDriverLoad.cpp" />
+    <ClCompile Include="CDlgFileBind.cpp" />
+>>>>>>> v1.0
+    <ClCompile Include="CDlgHackTools.cpp" />
+    <ClCompile Include="CDlgHookDetect.cpp" />
+    <ClCompile Include="CDlgInject.cpp" />
+    <ClCompile Include="CDlgMemory.cpp" />
+    <ClCompile Include="CDlgMiniProcess.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="CDlgSeparate.cpp" />
+>>>>>>> v1.0
+    <ClCompile Include="CDlgUninstall.cpp" />
+    <ClCompile Include="CDlgUploadSample.cpp" />
+    <ClCompile Include="CDisasmDlg.cpp" />
+    <ClCompile Include="CDlgFile.cpp" />
+    <ClCompile Include="CDlgFileCleaner.cpp" />
+    <ClCompile Include="CDlgFileLeft.cpp" />
+    <ClCompile Include="CDlgFileRight.cpp" />
+    <ClCompile Include="CDlgHandle.cpp" />
+    <ClCompile Include="CDlgHeap.cpp" />
+    <ClCompile Include="CDlgModule.cpp" />
+    <ClCompile Include="CDlgMsConfig.cpp" />
+    <ClCompile Include="CDlgProcess.cpp" />
+    <ClCompile Include="CDlgScanVirus.cpp" />
+    <ClCompile Include="CDlgServer.cpp" />
+    <ClCompile Include="CDlgThread.cpp" />
+    <ClCompile Include="CDlgWindow.cpp" />
+    <ClCompile Include="CFormViewProcUp.cpp" />
+    <ClCompile Include="CFormViewProcDown.cpp" />
+    <ClCompile Include="CGeneralTabCtrl.cpp" />
+    <ClCompile Include="CHexEditorDlg.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="HexEdit.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CPEInfoDlg.cpp" />
+    <ClCompile Include="CResourceInfo.cpp" />
+    <ClCompile Include="CResourceInfoDlg.cpp" />
+    <ClCompile Include="CTableInfoDlg.cpp" />
+    <ClCompile Include="CSecurityGuard.cpp" />
+    <ClCompile Include="CDlgSecurityGuard.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecurityGuard.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SecurityGuard.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\0.ico" />
+    <Image Include="res\1.ico" />
+    <Image Include="res\2.ico" />
+    <Image Include="res\3.ico" />
+<<<<<<< HEAD
+=======
+    <Image Include="res\CSecurityGuard.ico" />
+>>>>>>> v1.0
+    <Image Include="res\icon.ico" />
+    <Image Include="res\SecurityGuard.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

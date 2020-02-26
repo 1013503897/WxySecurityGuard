@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<<<<<<< HEAD
+    <RESOURCE_FILE>WxyTaskMgr.rc</RESOURCE_FILE>
+=======
+    <RESOURCE_FILE>SecurityGuard.rc</RESOURCE_FILE>
+>>>>>>> v1.0
+  </PropertyGroup>
+</Project>

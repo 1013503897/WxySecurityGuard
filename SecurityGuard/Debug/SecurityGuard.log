@@ -1,3 +1,0 @@
-﻿  CDlgAPITrace.cpp
-D:\source\SecurityGuard\SecurityGuard\CDlgAPITrace.cpp(550,12): warning C4101: “lpAppName”: 未引用的局部变量
-  SecurityGuard.vcxproj -> D:\source\SecurityGuard\Debug\SecurityGuard.exe

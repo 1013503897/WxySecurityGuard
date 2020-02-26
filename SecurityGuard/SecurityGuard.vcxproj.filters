@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Helper">
+      <UniqueIdentifier>{94b3223f-fd69-4292-8212-e6009d9e6cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PE">
+      <UniqueIdentifier>{6572008b-872f-4ed5-9876-56b6b9f34784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Helper">
+      <UniqueIdentifier>{b44b0edf-85f2-43a2-8192-9f2d70d841dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PE">
+      <UniqueIdentifier>{4831c0ed-9f42-46c1-b435-617dc240c013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Process">
+      <UniqueIdentifier>{356d7041-65a6-48a6-ab69-973756e50734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\杂项">
+      <UniqueIdentifier>{0c8daff8-a409-4cb2-8ce5-9223ceb858b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Process">
+      <UniqueIdentifier>{63f8a18b-afac-4f5f-b3a9-fa8aff29bb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\杂项">
+      <UniqueIdentifier>{1f6a9a13-bfd7-4ac1-ac54-f5862b4db9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDlgFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFileLeft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFileRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFileCleaner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgScanVirus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgMsConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgUploadSample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgUninstall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDisasmDlg.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CHexEditorDlg.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CPEInfoDlg.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceInfoDlg.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CTableInfoDlg.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="HexEdit.h">
+      <Filter>头文件\PE</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgHandle.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgHeap.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgModule.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgProcess.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgThread.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CFormViewProcDown.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CFormViewProcUp.h">
+      <Filter>头文件\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeneralTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgMemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgHookDetect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgMiniProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgHackTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgInject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSecurityGuard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSecurityGuard.h">
+      <Filter>头文件\杂项</Filter>
+    </ClInclude>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="CDlgDisasm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgFileBind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgSeparate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgDriver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgDriverLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgAPITrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+>>>>>>> v1.0
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CDlgFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFileLeft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFileRight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+<<<<<<< HEAD
+    <ClCompile Include="CResourceInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+=======
+>>>>>>> v1.0
+    <ClCompile Include="CDlgServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFileCleaner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgScanVirus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgMsConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgUploadSample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgUninstall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisasmDlg.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CHexEditorDlg.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CPEInfoDlg.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceInfoDlg.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CTableInfoDlg.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="HexEdit.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>源文件\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件\杂项</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgHandle.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgHeap.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgModule.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgProcess.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgThread.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CFormViewProcUp.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CFormViewProcDown.cpp">
+      <Filter>源文件\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeneralTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgMemory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgHookDetect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgMiniProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgHackTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgInject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSecurityGuard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSecurityGuard.cpp">
+      <Filter>源文件\杂项</Filter>
+    </ClCompile>
+<<<<<<< HEAD
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WxyTaskMgr.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WxyTaskMgr.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WxyTaskMgr.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+=======
+    <ClCompile Include="CResourceInfo.cpp">
+      <Filter>源文件\PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgDisasm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgFileBind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgSeparate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgDriver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgDriverLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgAPITrace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> v1.0
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\0.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+<<<<<<< HEAD
+=======
+    <Image Include="res\SecurityGuard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CSecurityGuard.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecurityGuard.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SecurityGuard.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+>>>>>>> v1.0
+  </ItemGroup>
+</Project>

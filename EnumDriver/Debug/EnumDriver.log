@@ -1,0 +1,35 @@
+﻿  Building 'EnumDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\EnumDriver.inf
+  Stamping [Version] section with DriverVer=02/26/2020,20.49.5.284
+  EnumDriver.c
+D:\source\SecurityGuard\EnumDriver\EnumDriver.h(28,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+D:\source\SecurityGuard\EnumDriver\EnumDriver.h(29,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+D:\source\SecurityGuard\EnumDriver\EnumDriver.h(33,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+D:\source\SecurityGuard\EnumDriver\EnumDriver.h(36,4): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+D:\source\SecurityGuard\EnumDriver\EnumDriver.h(37,3): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(4,68): warning C4100: “pRegistryPath”: 未引用的形参
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(44,47): warning C4100: “pDevObj”: 未引用的形参
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(154,55): warning C4133: “!=”: 从“PLDR_DATA_TABLE_ENTRY”到“_LIST_ENTRY *”的类型不兼容
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(165,14): warning C4456: “cbin”的声明隐藏了上一个本地声明
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(134,8): message : 参见“cbin”的声明
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(182,56): warning C4133: “!=”: 从“PLDR_DATA_TABLE_ENTRY”到“_LIST_ENTRY *”的类型不兼容
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(135,8): warning C4189: “cbout”: 局部变量已初始化但不引用
+D:\source\SecurityGuard\EnumDriver\EnumDriver.c(134,8): warning C4189: “cbin”: 局部变量已初始化但不引用
+  EnumDriver.vcxproj -> D:\source\SecurityGuard\Debug\EnumDriver.sys
+  Done Adding Additional Store
+  Successfully signed: D:\source\SecurityGuard\Debug\EnumDriver.sys
+  
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\source\SecurityGuard\Debug\EnumDriver\enumdriver.cat
+  Done Adding Additional Store
+  Successfully signed: D:\source\SecurityGuard\Debug\EnumDriver\enumdriver.cat
+  

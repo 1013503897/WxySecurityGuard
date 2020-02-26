@@ -1,0 +1,6 @@
+﻿  SecurityGuardServer.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+D:\source\SecurityGuard\SecurityGuardServer\SecurityGuardServer\SecurityGuardServer.cpp(96,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\source\SecurityGuard\SecurityGuardServer\SecurityGuardServer\SecurityGuardServer.cpp(245,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“CStringA”
+D:\source\SecurityGuard\SecurityGuardServer\SecurityGuardServer\SecurityGuardServer.cpp(320): warning C4715: “download”: 不是所有的控件路径都返回值
+  SecurityGuardServer.vcxproj -> D:\source\SecurityGuard\Debug\SecurityGuardServer.exe
